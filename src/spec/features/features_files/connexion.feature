@@ -1,3 +1,4 @@
+@Connexion
 Feature: Validation de connexion invalide
            En tant que utilisateur je veux verifier que la connexion est invalide
            

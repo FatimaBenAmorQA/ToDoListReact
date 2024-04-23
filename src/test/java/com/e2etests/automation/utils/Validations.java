@@ -64,6 +64,14 @@ public class Validations extends BasePage {
 		Assert.assertNotEquals(text1, text);
 
 	}
+	/**
+	 * method verify element is equal.
+	 */
+	public void assertEquals(String text, String text1) {
+		Assert.assertEquals(text1, text);
+
+	}
+	
 
 	public void assertTrue(WebElement element, String text) {
 		String text1 = element.getText();
@@ -74,6 +82,7 @@ public class Validations extends BasePage {
 	public void assertTrueBoolean(WebElement element) {
 		boolean text1 = element.isDisplayed();
 		Assert.assertTrue(text1);
+		//Assert.assertFalse(text1);
 
 	}
 
